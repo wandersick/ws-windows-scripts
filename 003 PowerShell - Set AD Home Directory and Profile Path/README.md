@@ -5,6 +5,7 @@
        Get-AdAllUsers.ps1
        Set-AdHomeDirectory.ps1
        Set-AdProfilePath.ps1
+       README.md
 ```
 
 **REMINDER** Please be careful of the power of automation. Test on a smaller number of testing objects to confirm OK before applying to a lot of objects
@@ -33,7 +34,7 @@ c. Remove empty `HomeDirectory` entries and save it as `AD_HomeDirectory.csv`
 
 **Step 3**. Apply updated CSV `AD_All_Users.csv` with new `ProfilePath` or `HomeDirectory` to Active Directory
 
-- Open `Set-AdHomeDirectory.ps1` and `Set-AdProfilePath.ps1` with Notepad and change path of the CSV to the location of the CSV file
+- Edit `Set-AdHomeDirectory.ps1` and `Set-AdProfilePath.ps1` to change path of the CSV to the location of the CSV file
 e.g. $UserList = Import-Csv -Path "C:\Users\Administrator\Desktop\AD_ProfilePath.csv";
 
 - Run `Set-AdHomeDirectory.ps1` and `Set-AdProfilePath.ps1` in PowerShell (as admin) on a Domain Controller

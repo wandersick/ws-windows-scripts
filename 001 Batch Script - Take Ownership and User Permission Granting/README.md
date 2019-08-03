@@ -22,7 +22,7 @@ Run permission-command.bat which performs the below for a specified folder
 
 **Step 1**. Record the current folder permissions using any method (BEFORE)
 
-**Step 2**. Use Notepad to open permission-command.bat
+**Step 2**. Edit permission-command.bat
 
 - Change folder path to the desired folder where the script will apply the change
 - e.g. set folderPath=`E:\Homedir\staff`

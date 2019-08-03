@@ -3,6 +3,7 @@
 ```
 002 Batch Script - Robocopy File Migration Scripts
        rcopy-01.bat
+       README.md
 ```
 
 **REMINDER** Please be careful of the power of automation. Test on a smaller number of testing objects to confirm OK before applying to a lot of objects
@@ -15,7 +16,7 @@ Several issues have been encountered:
 2. Files are copied slowly using robocopy
 3. Robocopy scripts fails to run, noticing there is a script named `robocopy.bat` in the same folder
 
-[Solution]
+## Solution
 
 ### 1. Copy files without permissions
 
