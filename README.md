@@ -23,6 +23,10 @@ Refer to introductory README files in sub-folders.
 
 004 PowerShell - Migrate FSRM Quotas Settings
        README.md
+
 005 PowerShell - Remove Stale Printer from Client Computer
+       README.md
+
+006 PowerShell - Export AD Users and Groups with All Properties
        README.md
 ```
