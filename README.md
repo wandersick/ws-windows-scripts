@@ -29,4 +29,7 @@ Refer to introductory README files in sub-folders.
 
 006 PowerShell - Export AD Users and Groups with All Properties
        README.md
+
+007 PowerShell - Export All GPO Objects to a HTML file
+       README.md
 ```

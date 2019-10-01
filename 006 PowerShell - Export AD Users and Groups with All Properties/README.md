@@ -1,14 +1,13 @@
-# 006 PowerShell - Export AD Users and Groups with All Properties
+# 007 PowerShell - Export All GPO Objects to a HTML file
 
 ```
-006 PowerShell - Export AD Users and Groups with All Properties
+006 007 PowerShell - Export All GPO Objects to a HTML file
        README.md
 ```
 
 ## How-to
 
 ```ps1
-Import-Module ActiveDirectory
-Get-ADUser -filter * -properties * | Export-Csv Get-ADUser.csv
-Get-ADGroup -filter * -properties * | Export-Csv Get-ADGroup.csv
+Import-Module GroupPolicy
+Get-GPOReport -All -ReportType HTML -Path Get-GPOReport.html
 ```
