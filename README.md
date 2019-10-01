@@ -33,3 +33,7 @@ Refer to introductory README files in sub-folders.
 007 PowerShell - Export All GPO Objects to a HTML file
        README.md
 ```
+
+## Tips
+
+- To run a PowerShell command in Command Prompt, use `powershell -c PowerShell command here ^| another PowerShell command`
