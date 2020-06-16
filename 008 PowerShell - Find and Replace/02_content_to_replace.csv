@@ -1,0 +1,4 @@
+GroupSMTPAddress,MembersSMTP,OwnersSMTP
+example.user01@old.com,,
+example.user02@old.com,,
+example.user01@old.com,example.user02@old.com,anything@whatever.com
